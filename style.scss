@@ -1,0 +1,373 @@
+// links
+@import 'layout/grids';
+@import 'layout/variables';
+@import 'layout/reset';
+@import 'layout/responcive';
+
+// css start
+// header section
+.nav {
+	padding: 20px 0px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+    a {
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+        transition-duration: 250ms;
+    }
+    :hover{
+        color: $main-color;
+    }
+}
+.btn {
+	text-align: right;
+}
+.btn a {
+	text-align: center;
+	color: #ffff;
+	padding: 10px 20px;
+	background-color: #2500f9;
+	border-radius: 25px;
+}
+
+// hero section
+.hero-section{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url(img/hero-bg.png);
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        .hero-section2{
+            background-image: url(img/lay-down.png);
+            background-position: bottom;
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index: -1;
+            margin-bottom: -72px;
+        }
+    img{
+        max-width: 80%;
+    }
+    .right-img{
+        text-align: right;
+    }
+}
+.content{
+    width: 85%;
+    h1{
+        font-size: $big-font-size;
+        color: $fifth-color;
+        line-height: 59px;
+        padding: 10px 0px;
+    }
+    p{
+        font-size: $font-size;
+        color: $six-color;
+        padding: 10px 0px;
+        
+    }
+}
+
+
+.btn-2 {
+	text-align: left;
+	display: inline-block;
+	margin: 15px;
+	margin-left: 0px;
+}
+
+// brands section
+.brands{
+    margin-top: 170px;
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100px;
+        height: 50px;
+    }
+    h1{
+        padding: 10px 0px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: $fifth-color;
+    }
+}
+
+// features section
+.features{
+    margin-top: 150px;
+    margin-bottom: 60px;
+    .m-mobile {
+        background-image: url(img/bonile-bg.png);
+        background-size: 423px;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+    img{
+        width: 80%;
+    }
+}
+.contentss{
+    width: 80%;
+    h1{
+        font-size: $mid-font-size;
+        line-height: 50px;
+    }
+    p{
+        font-size: $font-size;
+        color: $six-color;
+    }
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icons img{
+       width: 150px;
+    }
+    .item-con{
+        padding: 20px;
+    }
+    p{
+        font-size: $font-size;
+        color: $six-color;
+    }
+}
+
+.col1{
+    color: $third-color;
+    font-size: $mid-font-size;
+}
+.col2{
+    color: $main-color;
+    font-size: $mid-font-size;
+}
+.col3{
+    color: $fourth-color;
+    font-size: $mid-font-size;
+}
+
+// jack
+.faw{
+    margin: 60px 0px;
+}
+.left{
+    width: 35%;
+    h1{
+        font-size: $mid-font-size;
+        padding: 10px 20px;
+    }
+}
+.right{
+    width: 40%;
+    margin-left: 30px;
+    p{
+        color: $six-color;
+    }
+}
+
+// items section
+.sty {
+    p{
+        font-size: $font-size;
+        color: $six-color;
+    }
+}
+
+// designed
+.features2{
+    margin-top: 150px;
+    margin-bottom: 60px;
+    img{
+        width: 75%;
+    }
+}
+.contents{
+    width: 80%;
+    h1{
+        font-size: $mid-font-size;
+        padding: 10px 0px;
+    }
+    p{
+        color: $six-color;
+    }
+}
+
+
+
+// chose section
+
+.prt2{
+   width: 70%;
+   margin: 50px auto;
+    text-align: center;
+}
+
+.mt{
+    margin-top: 50px;
+}
+
+// ultimate section
+.f2{
+    margin: 90px 0px;
+    padding: 60px 0px;
+    img{
+        width: 80%;
+    }
+    h3{
+        font-size: $font-size;
+    }
+    p{
+        font-size: $font-size;
+        color: $six-color;
+    }
+}
+.imgs img{
+    max-width: 30%;
+}
+.bg-img {
+	background-image: url(img/bg1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.m-mobile2 {
+	text-align: right;
+}
+
+// prising section
+
+.card{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    box-shadow: 0px 2px 9px 5px rgba(212, 212, 212, 0.294);
+    margin: 0 auto;
+}
+.prising{
+    background-color: #fafbfc;
+    padding:20px 0px ;
+
+    h1{
+        font-size: $big-font-size;
+        padding: 10px 0px;
+    }
+    sub{
+        font-size: $font-size;
+        top: 50px;
+    }
+    p{
+        font-size: $font-size;
+        color: $six-color;
+        padding: 10px 50px;
+    }
+}
+
+.linsts ul li{
+    padding: 10px 0px;
+}
+.my{
+    margin-right: -30px;
+}
+.me{
+    margin-left: -40px;
+}
+
+// map sectiop
+.map{
+    margin: 90px 0px;
+    padding: 60px 0px;
+    border-bottom: 1px solid $six-color;
+    img{
+        width: 90%;
+        text-align: left;
+    }
+    h1{
+        font-size: 2.2rem;
+        font-weight: 800;
+    }
+}
+
+.m-mobile4 {
+	text-align: left;
+	margin-left: -118px;
+}
+span{
+    color: yellow;
+    padding: 10px 0px;
+}
+.testi{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+.testi img{
+    max-width: 15%;
+}
+.f-img{
+    display: flex;
+    padding-top: 20px;
+}
+.f-img img{
+    width: 150px;
+    height: auto;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+ // footer section
+footer{
+    background-color: $fifth-color;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    ul{
+        margin-left: -40px;
+        padding: 20px 0px;
+    }
+    ul li a{
+        color: #ffff;
+        padding: 20px 0px;
+    }
+    
+}
+.i2{
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.top{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    font-size: 30px;
+    // padding: 20px;
+    color: $fifth-color;
+    background-color: $second-color;
+    border-radius: 50%;
+    text-align: center;
+}

@@ -1,0 +1,101 @@
+@media screen and (min-width:700px){
+    .features .m-mobile {
+        margin-right: 20px;
+    }
+    .faw .left {
+        width: 50%;
+    }
+    .faw .my {
+        margin-right: 0px !important;
+    }
+    .faw .me {
+        margin-left: 0px !important;
+    }
+}
+
+@media all and (max-width: 800px){
+       $font-size: 0.90rem;
+       $big-font-size:3.1rem;
+       $mid-font-size: 1.2rem;
+    .nav .row {
+        padding: 30px 0px;
+        flex-direction: column;
+    }
+    nav{
+        padding: 30px 0px;
+    }
+    h1{
+        font-size: 2rem !important;
+    }
+    p{
+        font-size: 0.80rem !important;
+    }
+    h3{
+        font-size: 1.2rem !important;
+    }
+    .col-4 {
+        padding: 10px;
+    }
+    .mt{
+        padding: 10px;
+    }
+     .my {
+        margin-right: 0px !important;
+    }
+     .me {
+        margin-left: 0px !important;
+    }
+}
+
+
+@media all and (max-width: 425px){
+    h1{
+        font-size: 1.3rem !important;
+    }
+    .btn {
+        text-align: center !important;
+    }
+    .lt{
+        order: -2 !important;
+    }
+    .ft{
+        order: -1 !important;
+    }
+    .hero-section {
+        margin-top: 90px;
+    }
+    a {
+        font-size: 11px;
+    }
+    .me {
+        margin-left: -40px !important;
+    }
+    .my {
+        margin-left: -40px !important;
+        margin-bottom: 20px !important;
+    }
+    .f-img img {
+        width: 100px !important;
+    }
+}
+
+
+
+
+@media screen and (max-width: 428px) {
+    .cob-1 {width: 8.33%;}
+    .cob-2 {width: 16.66%;}
+    .cob-3 {width: 25%;}
+    .cob-4 {width: 33.33%;}
+    .cob-5 {width: 41.66%;}
+    .cob-6 {width: 50%;}
+    .cob-7 {width: 58.33%;}
+    .cob-8 {width: 66.66%;}
+    .cob-9 {width: 75%;}
+    .cob-10 {width: 83.33%;}
+    .cob-11 {width: 91.66%;}
+    .cob-12 {width: 100%;}
+  }
+
+
+  
